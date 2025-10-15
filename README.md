@@ -1,10 +1,10 @@
 # Practice Makes Perfect
 
-熟能生巧 - Spring Boot 练习项目
+熟能生巧 - leetcode刷题记录
 
 ## 项目介绍
 
-这是一个用于学习和练习的 Spring Boot 项目。
+用户联系leetcode刷题题目
 
 ## 技术栈
 
