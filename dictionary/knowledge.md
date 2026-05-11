@@ -766,3 +766,15 @@ private void countingSortByDigit(int[] arr, int exp) {
    - 尾递归优化
    - 减少不必要的交换
    - 利用CPU缓存局部性
+
+--- 
+# 图
+参考资料：  
+https://developer.aliyun.com/article/1624189?scm=20140722.ID_community@@article@@1624189._.ID_community@@article@@1624189-OR_rec-PAR1_2103a35417728096498432476d0af9-V_1-RL_community@@article@@1314598
+
+## 图的表示  
+图的表示方式有两种：二维数组表示（邻接矩阵）；链表表示（邻接表）  
+邻接矩阵是表示图形中顶点之间相邻关系的矩阵，对应代码中的二维数组  
+邻接表的实现只关心存在的边，不关心不存在的边。因此没有空间浪费，邻接表由数组+链表组成  
+
+
