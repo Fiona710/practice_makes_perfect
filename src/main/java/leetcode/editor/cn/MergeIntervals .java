@@ -64,6 +64,9 @@ class Solution {
                 ans.add(p);
             }
         }
+        int[] test = new int[1];
+//        new ArrayList<>(test);
+        Arrays.asList(test);
 
         return ans.toArray(new int[ans.size()][]);
     }
